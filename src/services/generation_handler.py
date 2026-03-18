@@ -32,6 +32,11 @@ MODEL_CONFIG = {
     },
 
     # 图片生成 - GEM_PIX_2 (Gemini 3.0 Pro)
+    "gemini-3.0-pro-image-unspecified": {
+        "type": "image",
+        "model_name": "GEM_PIX_2",
+        "aspect_ratio": "IMAGE_ASPECT_RATIO_UNSPECIFIED"
+    },
     "gemini-3.0-pro-image-landscape": {
         "type": "image",
         "model_name": "GEM_PIX_2",
@@ -59,6 +64,12 @@ MODEL_CONFIG = {
     },
 
     # 图片生成 - GEM_PIX_2 (Gemini 3.0 Pro) 2K 放大版
+    "gemini-3.0-pro-image-unspecified-2k": {
+        "type": "image",
+        "model_name": "GEM_PIX_2",
+        "aspect_ratio": "IMAGE_ASPECT_RATIO_UNSPECIFIED",
+        "upsample": "UPSAMPLE_IMAGE_RESOLUTION_2K"
+    },
     "gemini-3.0-pro-image-landscape-2k": {
         "type": "image",
         "model_name": "GEM_PIX_2",
@@ -91,6 +102,12 @@ MODEL_CONFIG = {
     },
 
     # 图片生成 - GEM_PIX_2 (Gemini 3.0 Pro) 4K 放大版
+    "gemini-3.0-pro-image-unspecified-4k": {
+        "type": "image",
+        "model_name": "GEM_PIX_2",
+        "aspect_ratio": "IMAGE_ASPECT_RATIO_UNSPECIFIED",
+        "upsample": "UPSAMPLE_IMAGE_RESOLUTION_4K"
+    },
     "gemini-3.0-pro-image-landscape-4k": {
         "type": "image",
         "model_name": "GEM_PIX_2",
@@ -135,6 +152,11 @@ MODEL_CONFIG = {
     },
 
     # 图片生成 - NARWHAL (新版)
+    "gemini-3.1-flash-image-unspecified": {
+        "type": "image",
+        "model_name": "NARWHAL",
+        "aspect_ratio": "IMAGE_ASPECT_RATIO_UNSPECIFIED"
+    },
     "gemini-3.1-flash-image-landscape": {
         "type": "image",
         "model_name": "NARWHAL",
@@ -159,6 +181,12 @@ MODEL_CONFIG = {
         "type": "image",
         "model_name": "NARWHAL",
         "aspect_ratio": "IMAGE_ASPECT_RATIO_PORTRAIT_THREE_FOUR"
+    },
+    "gemini-3.1-flash-image-unspecified-2k": {
+        "type": "image",
+        "model_name": "NARWHAL",
+        "aspect_ratio": "IMAGE_ASPECT_RATIO_UNSPECIFIED",
+        "upsample": "UPSAMPLE_IMAGE_RESOLUTION_2K"
     },
     "gemini-3.1-flash-image-landscape-2k": {
         "type": "image",
@@ -189,6 +217,12 @@ MODEL_CONFIG = {
         "model_name": "NARWHAL",
         "aspect_ratio": "IMAGE_ASPECT_RATIO_PORTRAIT_THREE_FOUR",
         "upsample": "UPSAMPLE_IMAGE_RESOLUTION_2K"
+    },
+    "gemini-3.1-flash-image-unspecified-4k": {
+        "type": "image",
+        "model_name": "NARWHAL",
+        "aspect_ratio": "IMAGE_ASPECT_RATIO_UNSPECIFIED",
+        "upsample": "UPSAMPLE_IMAGE_RESOLUTION_4K"
     },
     "gemini-3.1-flash-image-landscape-4k": {
         "type": "image",

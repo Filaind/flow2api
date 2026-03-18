@@ -51,6 +51,7 @@ ASPECT_RATIO_MAP = {
     "LANDSCAPE": "landscape",
     "PORTRAIT": "portrait",
     "SQUARE": "square",
+    "UNSPECIFIED": "unspecified",
 }
 
 # 每个基础模型支持的 aspectRatio 列表
@@ -63,6 +64,7 @@ MODEL_SUPPORTED_ASPECTS = {
         "square",
         "four-three",
         "three-four",
+        "unspecified",
     ],
     "gemini-3.1-flash-image": [
         "landscape",
@@ -70,6 +72,7 @@ MODEL_SUPPORTED_ASPECTS = {
         "square",
         "four-three",
         "three-four",
+        "unspecified",
     ],
     "imagen-4.0-generate-preview": ["landscape", "portrait"],
 }
@@ -94,7 +97,7 @@ IMAGE_SIZE_MAP = {
 }
 
 # 默认 aspectRatio
-DEFAULT_ASPECT = "landscape"
+DEFAULT_ASPECT = "unspecified"
 
 
 # ──────────────────────────────────────────────
